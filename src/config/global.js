@@ -1,17 +1,22 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.svg',
+    Name: 'El proceso de la nómina y prestaciones sociales en la administración del talento humano',
+    Description:
+      'Este componente formativo aborda la gestión de la nómina y las prestaciones sociales en la administración del talento humano. Explica el devengado, las deducciones y las apropiaciones, así como los aportes a seguridad social, los aportes parafiscales y las obligaciones del empleador. También presenta las disposiciones sobre jornada laboral, horas extras y recargos, incluidos los cambios introducidos por la Ley 2466 de 2025, para orientar la liquidación de la nómina conforme a la normativa colombiana.',
+    imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.png',
     fondoBannerPrincipal: '@/assets/curso/portada/fondo-banner-principal.png',
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: '@/assets/curso/portada/banner-principal-decorativo-1.svg',
+        imagen: '@/assets/curso/portada/banner-principal-decorativo-1.png',
       },
       {
         clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
-        imagen: '@/assets/curso/portada/banner-principal-decorativo-2.svg',
+        imagen: '@/assets/curso/portada/banner-principal-decorativo-2.png',
+      },
+      {
+        clases: ['banner-principal-decorativo-3', 'd-none', 'd-lg-block'],
+        imagen: '@/assets/curso/portada/banner-principal-decorativo-3.png',
       },
     ],
   },
@@ -31,27 +36,63 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'El proceso de la nómina',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Elementos de la nómina',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo:
+              'Seguridad social, aportes parafiscales y prestaciones sociales',
+            hash: 't_1_2',
           },
         ],
       },
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'El salario',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Fijación del salario mínimo',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Salario mínimo',
+            hash: 't_2_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Jornada laboral, horas extras y recargos',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Jornada laboral máxima semanal',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Recargo nocturno y horas extras',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo:
+              'Recargos por trabajo en días de descanso obligatorio y festivos',
+            hash: 't_3_3',
+          },
+        ],
       },
     ],
     subMenu: [
