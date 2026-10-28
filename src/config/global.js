@@ -137,13 +137,65 @@ export default {
   },
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Apropiaciones',
+      significado:
+        'aportes y provisiones a cargo del empleador para cubrir sus obligaciones de seguridad social, aportes parafiscales, prestaciones sociales y vacaciones.',
+    },
+    {
+      termino: 'Deducciones',
+      significado:
+        'valores que se descuentan del devengado del trabajador, como los aportes a salud y pensión, la retención en la fuente, las libranzas y los embargos.',
+    },
+    {
+      termino: 'Devengado',
+      significado:
+        'total de ingresos del trabajador durante un período de pago, antes de aplicar las deducciones.',
+    },
+    {
+      termino: 'Jornada nocturna',
+      significado:
+        'horario comprendido entre las 7:00 p. m. y las 6:00 a. m. del día siguiente, conforme a la Ley 2466 de 2025.',
+    },
+    {
+      termino: 'Nómina',
+      significado:
+        'registro de los ingresos, las deducciones y el valor neto por pagar a los trabajadores durante un período determinado.',
+    },
+    {
+      termino: 'Recargo por trabajo en días de descanso obligatorio o festivos',
+      significado:
+        'porcentaje adicional que se reconoce al trabajador por laborar en un día de descanso obligatorio o festivo, según la tarifa y la fecha de aplicación establecidas en la ley.',
+    },
+    {
+      termino: 'Salario mínimo',
+      significado:
+        'remuneración mínima legal que debe recibir el trabajador, de acuerdo con la jornada laboral y las condiciones de su vinculación.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Congreso de la República de Colombia. (1996). <i>Ley 278 de 1996, por la cual se reglamenta la composición y funcionamiento de la Comisión Permanente de Concertación de Políticas Salariales y Laborales</i>.',
+      link: '',
+    },
+    {
+      referencia:
+        'Congreso de la República de Colombia. (2012). <i>Ley 1607 de 2012, por la cual se expiden normas en materia tributaria y se dictan otras disposiciones</i>.',
+      link: '',
+    },
+    {
+      referencia:
+        'Congreso de la República de Colombia. (2021). <i>Ley 2101 de 2021, por medio de la cual se reduce la jornada laboral semanal de manera gradual, sin disminuir el salario de los trabajadores y se dictan otras disposiciones</i>.',
+      link: 'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=166506',
+    },
+    {
+      referencia:
+        'Congreso de la República de Colombia. (2025). <i>Ley 2466 de 2025, por medio de la cual se modifica parcialmente normas laborales y se adopta una reforma laboral para el trabajo decente y digno en Colombia</i>.',
+      link: 'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=260676',
+    },
+    {
+      referencia:
+        'Presidencia de la República de Colombia. (1950, 5 de agosto). <i>Decreto 2663 de 1950, Código Sustantivo del Trabajo</i>.',
       link: '',
     },
   ],
@@ -152,14 +204,14 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Johanna Gómez Pérez',
+          nombre: 'Milady Tatiana Villamil Castellanos',
           cargo: 'Líder del Ecosistema',
-          centro: 'Centro Agroturístico - Regional Santander',
+          centro: 'Dirección General',
         },
         {
-          nombre: 'Olga Constanza Bermúdez',
-          cargo: 'Responsable de línea de producción Huila',
-          centro: 'Dirección General',
+          nombre: 'Olga Constanza Bermúdez Jaimes',
+          cargo: 'Responsable de línea de producción',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
     },
@@ -167,9 +219,19 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: '',
-          cargo: '',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Orlando Vidal Perdomo',
+          cargo: 'Experto temático',
+          centro: 'Regional Risaralda',
+        },
+        {
+          nombre: 'Didier Andrés Ospina Osorio',
+          cargo: 'Experto temático',
+          centro: 'Regional Risaralda',
+        },
+        {
+          nombre: 'Paola Alexandra Moya Peralta',
+          cargo: 'Evaluadora instruccional',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
     },
@@ -177,20 +239,19 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: '',
+          nombre: 'Andrés Felipe Herrera Roldán',
+          cargo: 'Diseñador de contenidos digitales',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'Yerson Fabian Zarate Saavedra',
           cargo: 'Diseñador de contenidos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: '',
+          nombre: 'Jhon Jairo Urueta Alvarez',
           cargo: 'Desarrollador <i>full stack</i>',
-          centro:
-            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
-        },
-        {
-          nombre: '',
-          cargo: '',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
@@ -200,16 +261,14 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: '',
-          cargo: 'Validador de recursos educativos digitales',
-          centro:
-            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+          nombre: 'Margarita Marcela Medrano Gómez',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: '',
+          nombre: 'Daniel Ricardo Mutis Gómez ',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro:
-            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
     },
