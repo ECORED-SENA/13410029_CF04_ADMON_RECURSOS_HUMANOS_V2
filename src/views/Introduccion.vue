@@ -9,7 +9,7 @@
         h1 Introducción
       .row.bg-c1
         .col-12.px-5
-          p(data-aos="fade-right") La gestión de la nómina y las prestaciones sociales ha evolucionado con la incorporación de herramientas tecnológicas. El uso de software especializado facilita el registro de novedades, el cálculo de los pagos y el control de las obligaciones laborales. Sin embargo, la precisión de los resultados depende de la calidad de la información registrada y de la aplicación de la normativa vigente.
+          p(data-aos="fade-right") La gestión de la nómina y las prestaciones sociales ha evolucionado con la incorporación de herramientas tecnológicas. El uso de #[i software] especializado facilita el registro de novedades, el cálculo de los pagos y el control de las obligaciones laborales. Sin embargo, la precisión de los resultados depende de la calidad de la información registrada y de la aplicación de la normativa vigente.
           .row.align-items-center
             .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
               .p-4.bg-c2.shadow-lg.mb-4

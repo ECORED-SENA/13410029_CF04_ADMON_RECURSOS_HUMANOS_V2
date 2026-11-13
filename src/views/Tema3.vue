@@ -24,7 +24,7 @@
       #t_3_1
       .titulo-segundo.color-acento-contenido
         h2 3.1 Jornada laboral máxima semanal
-      p.mb-4(data-aos="fade-right") La Ley 2101 de 2021 estableció la reducción gradual de la jornada laboral máxima semanal, y la Ley 2466 de 2025 modificó el artículo 161 del CST manteniendo esa aplicación gradual (Congreso de la República de Colombia, 2025). Los aspectos principales se presentan a continuación:
+      p.mb-4(data-aos="fade-right") La Ley 2101 de 2021 estableció la reducción gradual de la jornada laboral máxima semanal, y la Ley 2466 de 2025 modificó el artículo 161 del CST, manteniendo esa aplicación gradual (Congreso de la República de Colombia, 2025). Los aspectos principales se presentan a continuación:
       .row.bg-c6
         .col-12.p-5(data-aos="fade-left")
           .tarjeta.tarjeta--azul1.p-4
@@ -120,7 +120,7 @@
                     img(src="@/assets/curso/temas/t3/img4.png", alt="", style="width: 410px").m-auto
                 .col-lg-6
                   p #[b Trabajo ordinario diurno]
-                  p.mb-0 Al valor de la hora ordinaria se suma el recargo aplicable. Entre el 1 de julio de 2026 y el 30 de junio de 2027 el recargo es del 90 %, por lo que el valor total equivale al 190 % de la hora ordinaria.
+                  p.mb-0 Al valor de la hora ordinaria se suma el recargo aplicable. Entre el 1 de julio de 2026 y el 30 de junio de 2027, el recargo es del 90 %, por lo que el valor total equivale al 190 % de la hora ordinaria.
             .p-4.p-md-5(titulo="Trabajo ordinario nocturno" icono="@/assets/curso/temas/t3/img4.svg")
               .row.justify-content-center.align-items-center
                 .col-lg-5.mb-4.mb-lg-0
@@ -128,7 +128,7 @@
                     img(src="@/assets/curso/temas/t3/img5.png", alt="", style="width: 410px").m-auto
                 .col-lg-6
                   p #[b Trabajo ordinario nocturno]
-                  p.mb-0 Se suman el recargo aplicable por ese día y el recargo nocturno del 35 %. Entre el 1 de julio de 2026 y el 30 de junio de 2027 los recargos suman el 125 %, y al incluir el valor de la hora ordinaria el pago total equivale al 225 %.
+                  p.mb-0 Se suman el recargo aplicable por ese día y el recargo nocturno del 35 %. Entre el 1 de julio de 2026 y el 30 de junio de 2027, los recargos suman el 125 %, y al incluir el valor de la hora ordinaria, el pago total equivale al 225 %.
             .p-4.p-md-5(titulo="Horas extras" icono="@/assets/curso/temas/t3/img5.svg")
               .row.justify-content-center.align-items-center
                 .col-lg-5.mb-4.mb-lg-0

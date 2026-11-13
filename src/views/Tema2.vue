@@ -68,7 +68,7 @@
                     figure
                       img(src="@/assets/curso/temas/t2/img3.svg", alt="", style="width: 80px").m-auto
                   .col
-                    p.mb-0 El salario mínimo es la remuneración mínima legal que debe recibir el trabajador, de acuerdo con la jornada y las condiciones de su vinculación. Su valor se establece para cada año. Para liquidar la nómina deben consultarse los decretos vigentes sobre salario mínimo y auxilio de transporte, así como los requisitos para reconocer este último.
+                    p.mb-0 El salario mínimo es la remuneración mínima legal que debe recibir el trabajador, de acuerdo con la jornada y las condiciones de su vinculación. Su valor se establece para cada año. Para liquidar la nómina, deben consultarse los decretos vigentes sobre salario mínimo y auxilio de transporte, así como los requisitos para reconocer este último.
               .col-lg-5
                 figure
                   img(src="@/assets/curso/temas/t2/img4.svg", alt="", style="width: 350px").m-auto
